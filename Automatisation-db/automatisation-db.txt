@@ -68,8 +68,7 @@ AWS_USE_PATH_STYLE_ENDPOINT=false
 VITE_APP_NAME="${APP_NAME}"
 
 
-
-2) se rendre sur phpmyadmin -> crée une nouvelle BDD et renseigner le nom de la bdd eu .env
+2) se rendre sur phpmyadmin -> crée une nouvelle BDD et renseigner le nom de la bdd du .env
 3) faire php artisan make:command dbcreate 
 4) copier le fichier dbcreate.txt dans app -> Commands -> dbcreate.php
 5) lancer la commande php artisan db:create
