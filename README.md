@@ -38,8 +38,7 @@ Pour démarrer le projet faire :
 
 ### Création de la BDD
 
-Une fois que le projet démarré. Suivre la procédure de création de la BDD dans le fichier automatisation-db.txt qui se trouve dans le dossier Automatisaion-db.
-
+Une fois que le projet démarré. Suivre la procédure de création de la BDD dans le fichier automatisation-db.txt qui se trouve dans le dossier Automatisation-db.
 
 ## Auteurs
 
