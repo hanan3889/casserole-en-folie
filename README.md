@@ -20,13 +20,23 @@ Pour commmencer faire :
 
 `git clone` + lien du projet
 
+cd casserole-en-folie
+
 `composer install` pour installer les dépendances
 
 `cp .env.example .env`
 
+Dans le .env modifier sqlite par mysql
+
+Ajouter le nom de la BDD : DB_DATABASE=casserole_en_folie
+
+Se rendre sur phpmyadmin et créer la BDD
+
 `php artisan key:generate`
 
 `php artisan migrate`
+
+`php artisan db:create`
 
 `php artisan serve`
 
@@ -36,9 +46,6 @@ Pour démarrer le projet faire :
 
 `php artisan serve`
 
-### Création de la BDD
-
-Une fois que le projet démarré. Suivre la procédure de création de la BDD dans le fichier automatisation-db.txt qui se trouve dans le dossier Automatisation-db.
 
 ## Auteurs
 
