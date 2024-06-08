@@ -36,6 +36,11 @@ Pour démarrer le projet faire :
 
 `php artisan serve`
 
+### Création de la BDD
+
+Une fois que le projet démarré. Suivre la procédure de création de la BDD dans le fichier automatisation-db.txt qui se trouve dans le dossier Automatisaion-db.
+
+
 ## Auteurs
 
 Projet mené par une équipe de développeurs composé de :
