@@ -34,6 +34,14 @@ Dans le .env modifier sqlite par mysql
 
 `php artisan serve`
 
+Se rendre dans phpmyadmin et créer la BDD avec le nom "casserole_en_folie"
+
+Dans le .env renseigner le nom
+
+`php artisan db:create`
+
+`php artisan migrate`
+
 ### Démarrage
 
 Pour démarrer le projet faire :
