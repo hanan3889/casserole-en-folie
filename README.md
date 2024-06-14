@@ -10,7 +10,7 @@ Ce qu'il est requis pour commencer :
 
 -   PHP 8.2
 -   Composer
--   Laravel
+-   Laravel 11
 -   Serveur Web XAMPP, WAMPP ou Laragon
 -   Mysql
 
