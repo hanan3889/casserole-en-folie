@@ -20,6 +20,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'is_admin',
+        'is_verified',
     ];
 
     /**
@@ -31,6 +33,11 @@ class User extends Authenticatable
         'password',
         'remember_token',
     ];
+
+    public function recipes()
+    {
+        return $this->hasMany(Recipe::class);
+    }
 
     /**
      * Get the attributes that should be cast.

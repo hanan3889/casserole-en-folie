@@ -74,3 +74,9 @@ VITE_APP_NAME="${APP_NAME}"
 5) lancer la commande php artisan db:create
 6) Message de succès la commande fonctionne. 
 Maintenant quand on lancera la commande php artisan db:create la BDD sera crée automatiquement
+
+/!\   En cas d'erreur lors de la migration   /!\   
+
+	1) Corriger la migration
+	2) Faire artisan db:create
+	3) php artisan migrate
