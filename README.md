@@ -10,7 +10,7 @@ Ce qu'il est requis pour commencer :
 
 -   PHP 8.2
 -   Composer
--   Laravel
+-   Laravel 11
 -   Serveur Web XAMPP, WAMPP ou Laragon
 -   Mysql
 
@@ -20,9 +20,13 @@ Pour commmencer faire :
 
 `git clone` + lien du projet
 
+cd casserole-en-folie
+
 `composer install` pour installer les dépendances
 
-`cp .env.example .env`
+`cp .env.example .env` 
+
+Dans le .env modifier sqlite par mysql
 
 `php artisan key:generate`
 
@@ -30,15 +34,19 @@ Pour commmencer faire :
 
 `php artisan serve`
 
+Se rendre dans phpmyadmin et créer la BDD avec le nom "casserole_en_folie"
+
+Dans le .env renseigner le nom
+
+`php artisan db:create`
+
+`php artisan migrate`
+
 ### Démarrage
 
 Pour démarrer le projet faire :
 
 `php artisan serve`
-
-### Création de la BDD
-
-Une fois que le projet démarré. Suivre la procédure de création de la BDD dans le fichier automatisation-db.txt qui se trouve dans le dossier Automatisation-db.
 
 ## Auteurs
 
