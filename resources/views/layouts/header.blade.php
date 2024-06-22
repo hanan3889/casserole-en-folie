@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="{{ asset('images/logo.webp') }}" alt="logo Casserole en folie" width="auto" height="50">
+                <img src="{{ asset('assets/logo.webp') }}" alt="logo Casserole en folie" width="auto" height="50">
                 <h1 class="d-inline">Casserole en folie</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

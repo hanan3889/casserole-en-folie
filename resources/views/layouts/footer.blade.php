@@ -5,7 +5,7 @@
                 <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
                     <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
                 </a>
-                <img src="{{ asset('images/logo.webp') }}" alt="logo Casserole en folie" width="auto" height="50">
+                <img src="{{ asset('assets/logo.webp') }}" alt="logo Casserole en folie" width="auto" height="50">
             </div>
 
             <div class="col mb-3">
