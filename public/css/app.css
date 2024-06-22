@@ -1,3 +1,17 @@
-p{
-    color: aqua;
+@import url('custom.css');
+
+/* BASE */
+*{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    color: #333;
+    /* background-color: #e5ccba; */
 }
+
+p{
+    color:#591811
+}
+
