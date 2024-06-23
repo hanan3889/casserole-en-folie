@@ -1,23 +1,13 @@
 .btn-primary {
-    background-color: #fccc04 !important;
-    border-color: #fccc04 !important;
+    background-color: #591811 !important;
+    border-color: #591811 !important;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-    background-color: #efbb04;
-    border-color: #efbb04;
+    background-color: #efbb04 !important;
+    border-color: #efbb04 !important;
 }
 
-.btn-secondary {
-    background-color: #33cfff;
-    border-color: #33cfff;
-}
 
-.btn-secondary:hover,
-.btn-secondary:focus,
-.btn-secondary:active {
-    background-color: #fccc04;
-    border-color: #fccc04;
-}
