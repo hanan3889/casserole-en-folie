@@ -11,16 +11,16 @@ class Recipe extends Model
 
     protected $fillable = [
 
-        'created_date',
+        'created_at',
         'title',
         'description',
         'image_path',
         'preparation_time',
         'cooking_time',
         'servings',
-        'category_id',
-        'user_id',
-        'type_id',
+        'categories_id',
+        'users_id',
+        'types_id',
     ];
 
     public function user()

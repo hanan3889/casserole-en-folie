@@ -21,7 +21,7 @@
 
     <!-- CONTENT -->
     <main class="container">
-        @yield('content')
+        @yield('recette')
     </main>
     <!-- CONTENT END -->
 

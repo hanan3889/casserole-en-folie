@@ -19,14 +19,17 @@ return new class extends Migration
             $table->integer('preparation_time')->nullable();
             $table->integer('cooking_time')->nullable();
             $table->integer('servings')->nullable();
-            $table->bigInteger('categories_id')->unsigned();
-            $table->bigInteger('users_id')->unsigned();
-            $table->bigInteger('types_id')->unsigned();
+            // $table->bigInteger('categories_id')->unsigned();
+            // $table->bigInteger('users_id')->unsigned();
+            // $table->bigInteger('types_id')->unsigned();
+            $table->foreignId('categories_id')->constrained('categories')->onDelete('cascade');
+            $table->foreignId('users_id')->constrained('users')->onDelete('cascade');
+            $table->foreignId('types_id')->constrained('types')->onDelete('cascade');
             $table->timestamps(); 
 
-            $table->foreign('categories_id')->references('id')->on('categories')->onDelete('cascade');
-            $table->foreign('users_id')->references('id')->on('users')->onDelete('cascade');
-            $table->foreign('types_id')->references('id')->on('types')->onDelete('cascade');
+            // $table->foreign('categories_id')->references('id')->on('categories')->onDelete('cascade');
+            // $table->foreign('users_id')->references('id')->on('users')->onDelete('cascade');
+            // $table->foreign('types_id')->references('id')->on('types')->onDelete('cascade');
 
         });
     }

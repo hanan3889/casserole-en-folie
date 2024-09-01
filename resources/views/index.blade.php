@@ -2,8 +2,8 @@
 
 @section('title', 'Casserole en folie')
 
-@section('recette')
-    <h1>Recettes</h1>
+@section('content')
+    {{-- <h1>Recettes</h1>
     <p>Bienvenue dans la section des recettes.</p>
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -19,5 +19,5 @@
             </div>
         </div>
         @endforeach
-    </div>
+    </div> --}}
 @endsection
