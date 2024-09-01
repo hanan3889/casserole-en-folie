@@ -1,19 +1,18 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RecipeController;
+use App\Http\Controllers\IngredientController;
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('index');
+})->name('index');
 
-Route::get('/recipes', 'App\Http\Controllers\RecipeController@index')->name('recipes.index');
 
-Route::get('/recipes/create', 'RecipeController@create')->name('recipes.create');
 
-Route::get('/recettes', function () {
-    return view('recettes.recette');
-});
+Route::get('/recettes', [RecipeController::class, 'showRecipes']);
+Route::get('/recettes/{recipe}', [RecipeController::class, 'show'])->name('recipes.show');
+Route::get('/creation-recette', [RecipeController::class, 'createRecipe'])->name('recettes.createRecipe');
+// Route::post('/creation-recette', [RecipeController::class, 'create'])->name('createRecipe');
 
-// Route::get('/login', function () {
-//     return view('login');
-// });
+
